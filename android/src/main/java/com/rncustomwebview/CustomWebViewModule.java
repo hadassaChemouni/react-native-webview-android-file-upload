@@ -47,10 +47,10 @@ public class CustomWebViewModule extends ReactContextBaseJavaModule implements A
     // @todo this could be configured from JS
     final String[] DEFAULT_MIME_TYPES = {"image/*", "video/*", "audio/*"};
 
-    final String TAKE_PHOTO = "Take a photo…";
-    final String TAKE_VIDEO = "Record a video…";
-    final String CHOOSE_FILE = "Choose an existing file…";
-    final String CANCEL = "Cancel";
+    final String TAKE_PHOTO = "Capturer une photo…";
+    final String TAKE_VIDEO = "Enregistrer une vidéo…";
+    final String CHOOSE_FILE = "Choisir un fichier…";
+    final String CANCEL = "Annuler";
 
     public CustomWebViewModule(ReactApplicationContext context) {
         super(context);
